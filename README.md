@@ -24,7 +24,7 @@ addn-hosts=/opt/tmp/block.hosts
 
 7) In Advanced Settings → Administration → Services → Scheduler tasks (Crontab):
 00 05 * * 0,2,4,6 /etc/storage/adblock_update.sh
-(Run the command every other day at 5 am, or change to your preference, you don't need to update every day.)
+(Run the command alternating the days of the week at 5 am, or change it to your preference, you don't need to update every day.)
 
 8) Restart the router or run with Putty SSH: /etc/storage/adblock_update.sh
 
