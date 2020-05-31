@@ -63,13 +63,13 @@ WLIST="/opt/tmp/adblock_white.list"
 #Energyzed Protection Ultimate
 # logger "download Energyzed Protection Ultimate..." && wget -qO- "https://block.energized.pro/ultimate/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
-#Energyzed Protection Ultimate
+#Energyzed Protection Ultimate IPV6
 # logger "download Energyzed Protection Ultimate IPV6..." && wget -qO- "https://block.energized.pro/ultimate/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Unified
 # logger "download Energyzed Protection Unified..." && wget -qO- "https://block.energized.pro/unified/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
-#Energyzed Protection Unified
+#Energyzed Protection Unified IPV6
 # logger "download Energyzed Protection Unified IPV6..." && wget -qO- "https://block.energized.pro/unified/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Xtreme Extension (Note. Xtreme Pack is an enhanced protection pack. May break apps and sites.)
