@@ -1,0 +1,4 @@
+#/opt/etc/black.list
+
+#add some server that the list doesn't block
+#example1.block.com
