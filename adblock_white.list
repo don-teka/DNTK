@@ -1,0 +1,4 @@
+#/etc/white.list
+
+#Add whitelisted addresses, when appropriate, etc.
+#example1.block.com
