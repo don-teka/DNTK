@@ -28,6 +28,10 @@ addn-hosts=/opt/tmp/block.hosts
 
 8) Restart the router or run with Putty SSH: /etc/storage/adblock_update.sh
 
+
+To block or unblock any site just insert the domain in the desired list adblock_black.list to block or adblock_white.list to unblock, like this: example.com or example.com.br
+then just update the adblock with the command in Putty: /etc/storage/adblock_update.sh
+
 Subscriptions are obtained from the entire Internet and only those updated regularly enough. Don't get carried away with the number of signatures (to add a signature, remove the # symbol in front of the logger on the corresponding line).
 Currently working well, I recommend not using very large lists as it takes time to update and it takes time to read the domains through the router.
 Thanks to ENERGIZED for existing, making this job much easier.
