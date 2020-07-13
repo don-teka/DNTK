@@ -34,71 +34,73 @@ WLIST="/opt/tmp/adblock_white.list"
 # logger "download Energyzed Protection Spark..." && wget -qO- "https://block.energized.pro/spark/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Spark IPV6
-# logger "download Energyzed Protection Spark IPV6..." && wget -qO- "https://block.energized.pro/spark/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Spark IPV6..." && wget -qO- "https://block.energized.pro/spark/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Blu Go
 # logger "download Energyzed Protection Blu Go..." && wget -qO- "https://block.energized.pro/bluGo/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Blu Go IPV6
-# logger "download Energyzed Protection Blu Go IPV6..." && wget -qO- "https://block.energized.pro/bluGo/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Blu Go IPV6..." && wget -qO- "https://block.energized.pro/bluGo/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Blu
  logger "download Energyzed Protection Blu..." && wget -qO- "https://block.energized.pro/blu/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Blu IPV6
-# logger "download Energyzed Protection Blu IPV6..." && wget -qO- "https://block.energized.pro/blu/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Blu IPV6..." && wget -qO- "https://block.energized.pro/blu/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Basic
 # logger "download Energyzed Protection Basic..." && wget -qO- "https://block.energized.pro/basic/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Basic IPV6
-# logger "download Energyzed Protection Basic IPV6..." && wget -qO- "https://block.energized.pro/basic/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Basic IPV6..." && wget -qO- "https://block.energized.pro/basic/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Porn
 # logger "download Energyzed Protection Porn..." && wget -qO- "https://block.energized.pro/porn/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Porn IPV6
-# logger "download Energyzed Protection Porn IPV6..." && wget -qO- "https://block.energized.pro/porn/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Porn IPV6..." && wget -qO- "https://block.energized.pro/porn/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Ultimate
 # logger "download Energyzed Protection Ultimate..." && wget -qO- "https://block.energized.pro/ultimate/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Ultimate IPV6
-# logger "download Energyzed Protection Ultimate IPV6..." && wget -qO- "https://block.energized.pro/ultimate/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Ultimate IPV6..." && wget -qO- "https://block.energized.pro/ultimate/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Unified
 # logger "download Energyzed Protection Unified..." && wget -qO- "https://block.energized.pro/unified/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Unified IPV6
-# logger "download Energyzed Protection Unified IPV6..." && wget -qO- "https://block.energized.pro/unified/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Unified IPV6..." && wget -qO- "https://block.energized.pro/unified/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Xtreme Extension (Note. Xtreme Pack is an enhanced protection pack. May break apps and sites.)
 # logger "download Energyzed Protection Xtreme Extension..." && wget -qO-  "https://block.energized.pro/extensions/xtreme/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Xtreme Extension IPV6 (Note. Xtreme Pack is an enhanced protection pack. May break apps and sites.)
-# logger "download Energyzed Protection Xtreme Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/xtreme/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Xtreme Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/xtreme/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Social Extension
 # logger "download Energyzed Protection Social Extension..." && wget -qO-  "https://block.energized.pro/extensions/social/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Social Extension IPV6
-# logger "download Energyzed Protection Social Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/social/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Social Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/social/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Porn Lite Extension
 # logger "download Energyzed Protection Porn Lite Extension..." && wget -qO-  "https://block.energized.pro/extensions/porn-lite/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Porn Lite Extension IPV6
-# logger "download Energyzed Protection Porn Lite Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/porn-lite/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Porn Lite Extension IPV6..." && wget -qO-  "https://block.energized.pro/extensions/porn-lite/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Regional Extension 
  logger "download Energyzed Protection Extension Regional..." && wget -qO-  "https://block.energized.pro/extensions/regional/formats/hosts" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection Regional Extension IPV6
-# logger "download Energyzed Protection Extension Regional IPV6..." && wget -qO-  "https://block.energized.pro/extensions/regional/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
+# logger "download Energyzed Protection Extension Regional IPV6..." && wget -qO-  "https://block.energized.pro/extensions/regional/formats/hosts-ipv6.txt" | awk -v r="$ENDPOINT_IP6" '{sub(/^::/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
 #Energyzed Protection IPs Extension 
 # logger "download Energyzed Protection Extension IPs..." && wget -qO-  "https://block.energized.pro/extensions/ips/formats/list.txt" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR"
 
+#Tik Tok Block
+ logger "download Tik Tok Block List..." && wget -qO-  "https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-block" | awk -v r="$ENDPOINT_IP4" '{sub(/^0.0.0.0/, r)} $0 ~ "^"r' >> "$TMPDIR" 
 
 # Add black list, if non-empty
 if [ -s "$BLIST" ]
