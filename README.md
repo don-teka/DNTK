@@ -7,6 +7,8 @@ You need to understand that blocking ads using domain blocking will never be as 
 Browser add-ons address this by hiding this ad immediately before rendering on the screen, which the router cannot, for obvious reasons. However, blocking ads using domain blocking makes sense - for example, if the client device displays ads in a game or mobile app where you cannot install Adblock. 
 Ie out of the browser. You don't have to wait for this block to feel so good
 
+For everything to work correctly you need to have an external hard drive or pendrive on your router, and the entware needs to be enabled in the padavan settings.
+
 1)Insert the adblock_update.sh file in the following folder: /etc/storage (access to /etc/storage folder can be done with WINSCP. Requires SSH enabled on padavan)
 
 2) Make it executable: (Type in the Putty or Router console)
